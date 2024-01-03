@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+}
+.header {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header button, a{
+    color: black;
+    text-decoration: none;
+}
+.header button {
+    margin-left: 10px;
+    border: 0, 5px solid #999;
+    transition: 0.2s ease;
+    height: 35px;
+    width: 100px;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(170, 32, 32);
+    text-align: center;
+    color: #fff;
+}
+.header button:hover{
+        background: green;
+        color: #fff;
+        text-align: center;
+}
+
+/* menu css */
+.menu{
+    height: 41px;
+    background: #4CAF50;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.menu ul li a{
+    color: red;
+    text-decoration: none;
+}
+.search{
+    line-height: 35px;
+    float: right;
+    margin-right: 30px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.img-anh{
+    width: 100%;
+    height: 330px;
+}
+.content{
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 5px;
+}
+/* .pro-img{
+    border: 1px solid aliceblue;
+
+} */
+.pro-img {
+    position: relative;
+}
+
+.product-info {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.pro-img:hover .product-info {
+    display: block;
+}
+
+
+/* Các phần tử trong footer */
+footer {
+    background-color: #058c52;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer-section {
+    margin: 20px;
+}
+
+.footer-section h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-section button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Các phần tử trong footer kết thúc */
